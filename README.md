@@ -49,6 +49,7 @@ dotnet test
 ## Running the Tests with Allure
 ```bash
 ./runtest.sh
+allure open allure-report
 ```
 
 
