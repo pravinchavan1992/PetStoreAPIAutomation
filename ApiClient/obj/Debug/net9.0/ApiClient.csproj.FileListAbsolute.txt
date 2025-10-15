@@ -1,0 +1,11 @@
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/bin/Debug/net9.0/ApiClient.deps.json
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/bin/Debug/net9.0/ApiClient.dll
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/bin/Debug/net9.0/ApiClient.pdb
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/obj/Debug/net9.0/ApiClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/obj/Debug/net9.0/ApiClient.AssemblyInfoInputs.cache
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/obj/Debug/net9.0/ApiClient.AssemblyInfo.cs
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/obj/Debug/net9.0/ApiClient.csproj.CoreCompileInputs.cache
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/obj/Debug/net9.0/ApiClient.dll
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/obj/Debug/net9.0/refint/ApiClient.dll
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/obj/Debug/net9.0/ApiClient.pdb
+/Users/pchavan/PetStoreAPIAutomation/ApiClient/obj/Debug/net9.0/ref/ApiClient.dll
