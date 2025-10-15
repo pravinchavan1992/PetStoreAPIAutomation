@@ -23,9 +23,6 @@ jobs:
     - name: Restore dependencies and Run Build
       run: ./runtest.sh
 
-    - name: Generate Allure Report
-      run: allure generate ./allure-results --clean -o ./allure-report
-
     - name: Deploy Allure Report to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
