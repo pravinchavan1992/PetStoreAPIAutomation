@@ -21,7 +21,9 @@ jobs:
         dotnet-version: '9.0.x'
 
     - name: Restore dependencies and Run Build
-      run: ./runtests.sh
+      run: |
+            cd ls
+            ./runtests.sh
 
     - name: Generate Allure Report
       run: allure generate ./allure-results --clean -o ./allure-report
