@@ -18,6 +18,6 @@ dotnet test --logger "trx;LogFileName=TestResults.trx" --results-directory ../al
 # 4. Generate and open Allure report
 cd ..
 echo "Generating Allure report..."
-allure generate allure-results --clean -o allure-report
+allure generate ./allure-results --clean -o ./allure-report
 
 echo "Test Execution Completed"
