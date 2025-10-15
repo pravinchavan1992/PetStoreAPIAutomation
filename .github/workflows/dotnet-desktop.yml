@@ -21,11 +21,7 @@ jobs:
         dotnet-version: '9.0.x'
 
     - name: Install Allure CLI
-      run: |
-        sudo apt-add-repository ppa:qameta/allure -y
-        sudo apt-get update
-        sudo apt-get install allure -y
-        allure --version
+      run: npm install -g allure-commandline --save-dev
 
     - name: Restore dependencies and Run Build
       run: ./runtests.sh
