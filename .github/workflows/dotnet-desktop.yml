@@ -20,15 +20,14 @@ jobs:
       with:
         dotnet-version: '9.0.x'
 
-    - name: Install Allure CLI
-      run: npm install -g allure-commandline --save-dev
-
     - name: Restore dependencies and Run Build
-      run: ./runtests.sh
+      run: |
+         cd PetStoreAPIAutomation
+         ./runtests.sh
 
     - name: Deploy Allure Report to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./allure-report
+        publish_dir: ./PetStoreAPIAutomation/allure-report
         publish_branch: gh-pages
