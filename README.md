@@ -25,7 +25,7 @@ PetStoreAPIAutomation/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/PetStoreAPIAutomation.git
+git clone git@github.com:pravinchavan1992/PetStoreAPIAutomation.git
 cd PetStoreAPIAutomation
 ```
 
