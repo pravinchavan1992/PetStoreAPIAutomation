@@ -20,6 +20,11 @@ jobs:
       with:
         dotnet-version: '9.0.x'
 
+    - name: Debug repo structure
+      run: |
+        pwd
+        ls -la
+
     - name: Restore dependencies and Run Build
       run: |
             cd ls
